@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/styles.css">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  
+</head>
+    <body>
+        <h1 id="title">SPLITTER</h1>
+            
+            <section id="section">
+                <div class="card--one">
+                    <h3 class="card--one__h3">Bill</h3>
+                    <span class="material-icons">attach_money</span>
+                    <input type="number" class="input--card__one" id="input--dinheiro">
+                    
+
+                    <h3 class="card--one__h3">Select Tip %</h3>
+
+                    <div class="div--button">
+                        <button id="botao5" class="button--card-one" >5%</button>
+                        <button id="botao10" class="button--card-one" >10%</button>
+                        <button id="botao15" class="button--card-one" >15%</button>
+                        <button id="botao25" class="button--card-one" >25%</button>
+                        <button id="botao50" class="button--card-one" >50%</button>
+                        <input type="number" name="" id="input--custom" placeholder="Custom">
+                        <span class="mensagem-aviso" id="aviso-pessoas">Can't be zero</span><br><br>
+                    </div>
+                    <h3 class="card--one__h3">Number of People</h3>
+                    <span class="material-icons">person</span>
+                    <input type="number" class="input--card__one" id="input--pessoas">
+                </div>
+
+                <div class="card--two">
+                    <h3 class="card--two_h3_one">Tip Amount</h3>
+                    <p class="card--two_p_one">/ person</p>
+                    <div class="card--two__divH1">
+                        <p class="card--two__p1">$</p>
+                        <h1 class="card--two_h1_one" id="valor--gorjeta">0,00</h1>
+                    </div>
+
+                    <h3 class="card--two_h3_two">Total</h3>
+                    <p class="card--two_p_two">/ person</p>
+                    <div class="card--two__divH1">
+                        <p class="card--two__p2">$</p>
+                        <h1 class="card--two_h1_two" id="valor--total">0,00</h1>
+                    </div>
+                    
+
+                    <button class="button--reset" id="reset">RESET</button>
+                </div>
+            </section>
+            <script src="../src/codigo.js"></script>
+    </body>
+</html>

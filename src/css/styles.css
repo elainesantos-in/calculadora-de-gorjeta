@@ -1,0 +1,238 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    margin: none;
+}
+
+:root{
+    --strong-cyan: hsl(172, 67%, 45%);
+    --very-dark-cyan: hsl(183, 100%, 15%);
+    --dark-grayish-cyan: hsl(186, 14%, 43%);
+    --grayish-cyan: hsl(184, 14%, 56%);
+    --light-grayish-cyan: hsl(185, 41%, 84%);
+    --very-light-grayish: hsl(189, 41%, 97%);
+    --white: hsl(0, 0%, 100%);
+}
+
+body{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45vw;
+    background-color: var(--light-grayish-cyan);
+    font-family: 'Space Mono';
+    
+}
+
+#title{
+    position: absolute;
+    word-wrap: break-word;
+    top: 1.6rem;
+    font-size: 1.1rem;
+    width: 4rem;
+    letter-spacing: 4px;
+    color: var(--very-dark-cyan)
+}
+
+#section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--white);
+    height: 22rem;
+    width: 45rem;
+    border-radius: 1rem;
+    position: relative;
+    
+}
+
+.card--one {
+    position: absolute;
+    top: 1rem;
+    left: 2.5rem;
+    
+}
+
+.card--one__h3 {
+    color: var(--grayish-cyan);
+    font-size: 0.7rem;
+    margin-bottom: 0.3rem;
+    margin-top: 1.5rem;
+}
+
+.input--card__one{
+    border: none;
+    background-color: var(--very-light-grayish);
+    height: 1.9rem;
+    width: 17.6rem;
+    border-radius: 4px;
+    color: var(--very-dark-cyan);
+    font-family: 'Space Mono';
+    font-weight: 900;
+    text-align:right
+}
+
+.input--card__one:focus{
+    outline: 0;
+}
+
+.material-icons{
+    position: absolute;
+    color: var(--grayish-cyan);
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.div--button{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 20rem;
+}
+
+.button--card-one{
+    border: none;
+    background-color: var(--very-dark-cyan);
+    color: var(--white);
+    font-weight: 600;
+    font-family: 'Space Mono';
+    border-radius: 4px;
+    width: 5.3rem;
+    height: 2.2rem;
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.button--card-one.active{
+    background-color: var(--strong-cyan); 
+    color: var(--very-dark-cyan);
+}
+
+#input--custom{
+    border: none;
+    background-color: var(--very-light-grayish);
+    color: var(--grayish-cyan);
+    font-weight: 600;
+    font-family: 'Space Mono';
+    border-radius: 4px;
+    width: 5.3rem;
+    height: 2.2rem;
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    font-size: 1.1rem;
+}
+.card--two{
+    position: relative;
+    position: absolute;
+    top: 1.5rem;
+    left: 22.3rem;
+    background-color: var(--very-dark-cyan);
+    width: 21rem;
+    height: 19rem;
+    border-radius: 15px;
+}
+
+.card--two_h3_one{
+    color: var(--white);
+    font-size: 0.8rem;
+    margin-bottom: 0.3rem;
+    margin-top: 2.8rem;
+    position: absolute;
+    left: 1.7rem;
+}
+
+.card--two_p_one{
+    color: var(--grayish-cyan);
+    font-size: 0.7rem;
+    font-weight: 600;
+    position: absolute;
+    left: 1.6rem;
+    margin-top: 3.8rem;
+}
+
+.card--two__p1{
+    font-size: 2rem;
+    color: var(--strong-cyan);
+    position: absolute;
+    left: 11.5rem;
+    top: 0.2rem;
+}
+.card--two_h1_one {
+    position: absolute;
+    color: var(--strong-cyan);
+    font-size: 2.4rem;
+    left: 13rem;
+}
+
+.card--two_h3_two{
+    color: var(--white);
+    font-size: 0.8rem;
+    margin-bottom: 0.3rem;
+    margin-top: 2.8rem;
+    position: absolute;
+    left: 1.7rem;
+    top: 4rem;
+}
+.card--two_p_two{
+    color: var(--grayish-cyan);
+    font-size: 0.7rem;
+    font-weight: 600;
+    position: absolute;
+    left: 1.6rem;
+    margin-top: 3.8rem;
+    top: 4rem;
+}
+
+.card--two__p2{
+    font-size: 2rem;
+    color: var(--strong-cyan);
+    position: absolute;
+    left: 10rem;
+    top: 4.2rem;
+}
+.card--two_h1_two {
+    position: absolute;
+    color: var(--strong-cyan);
+    font-size: 2.4rem;
+    left: 11.5rem;
+    top: 4rem;
+}
+
+.card--two__divH1{
+    position: relative;
+}
+
+.button--reset {
+    border: none;
+    background-color: var(--strong-cyan);
+    color: var(--very-dark-cyan);
+    font-weight: 600;
+    font-family: 'Space Mono';
+    border-radius: 4px;
+    width: 17rem;
+    height: 2.2rem;
+    font-size: 0.9rem;
+    margin-right: 1rem;
+    position: absolute;
+    left: 1.8rem;
+    top: 15rem;
+}
+
+.campo-invalido {
+    border: 1px solid red;
+}
+
+.mensagem-aviso {
+    position: absolute;
+    color: red;
+    font-size: 12px;
+    margin-top: 7rem;
+    margin-left: 11.5rem;
+    display: none;
+}
+
+
